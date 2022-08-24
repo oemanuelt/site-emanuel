@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    flex-flow: row wrap;
+    height: 100px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    flex: 20%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.logo h1{
+    font-family: 'Pacifico', cursive;
+    color: #b956f6;
+    font-size: 35px;
+}
+
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    color: #2690c1;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover{
+    color: #0004ff;
+    border-top: 4px solid #3700ff;
+}
+
+#falec{
+    background: #9019da;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 5%;
+    margin-left: 10%;
+}
+
+#falec:hover{
+    border: none;
+    background: #2690c1;
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.headline{
+    flex: 40%;
+    margin-left: 10%;
+    
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #b956f6;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p{
+    color: black;
+    text-align: left;
+}
+
+.contact-btn{
+    display: inline-block;
+    background: #b956f6;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover{
+    background: #2690c1;
+}
+
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5%;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    color: #8630bb;
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid rosybrown;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.texto-oculto{
+    display: none;
+}
+
+.card:hover{
+    background: #2690c1;
+    color: white;
+    padding: 30px;
+    border: none;
+}
+
+.card:hover img{
+    display: none;
+}
+
+.card:hover .card-text{
+    display: none;
+}
+
+.card:hover .texto-oculto{
+    display: block;
+}
+
+footer{
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg, #180f4a, #090422, black);
+    text-align: center;
+    border-top: 5px solid #8630bb;
+}
+
+.logo-rodape{
+    padding: 100px;
+}
+
+.host{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 35px;
+}
+
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
